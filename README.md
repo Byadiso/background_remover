@@ -2,12 +2,12 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![GitHub](https://img.shields.io/badge/Source-GitHub-181717?logo=github&logoColor=white)](https://github.com/Byadiso/background_remover)
-[![License](https://img.shields.io/badge/License-Not%20Specified-lightgrey)](https://github.com/Byadiso/background_remover)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](https://github.com/Byadiso/background_remover/pulls)
 
-A lightweight, user-friendly background removal application built with **Python and Streamlit**.
+A lightweight, open-source background removal application built with **Python and Streamlit**.
 
-Background Remover Studio allows users to remove solid-color backgrounds, preserve existing transparency, and export high-quality PNG images while maintaining their original dimensions.
+Background Remover Studio makes it easy to remove solid-color backgrounds, preserve existing transparency, and export high-quality PNG images without changing their original dimensions.
 
 Designed for product images, logos, illustrations, digital artwork, and other graphics.
 
@@ -15,7 +15,7 @@ Designed for product images, logos, illustrations, digital artwork, and other gr
 
 - **Background Removal** — Remove solid-color backgrounds with adjustable color tolerance.
 - **Transparent PNG Export** — Export images with genuine alpha transparency.
-- **Full-Resolution Output** — Preserve original image dimensions without automatic resizing.
+- **Full-Resolution Output** — Preserve original image dimensions without resizing.
 - **Transparency Preservation** — Maintain existing RGB colors and alpha values.
 - **Edge Refinement** — Adjustable feathering for smoother edges.
 - **Interior Background Removal** — Optionally remove matching colors inside enclosed areas.
@@ -65,7 +65,7 @@ python -m streamlit run app.py --server.address 127.0.0.1 --server.port 8503
 
 Visit [http://127.0.0.1:8503](http://127.0.0.1:8503).
 
-If port `8503` is unavailable, use another port such as `8504`.
+If port `8503` is unavailable, use another available port.
 
 ## How to Use
 
@@ -77,18 +77,18 @@ If port `8503` is unavailable, use another port such as `8504`.
 
 ## Image Quality
 
-Background Remover Studio prioritizes maintaining image quality and original dimensions.
+Background Remover Studio prioritizes maintaining original image dimensions and transparency.
 
 | Property | Description |
 |---|---|
 | Output format | PNG |
 | Color mode | RGBA |
-| Background | Transparent when successfully removed |
+| Background | Transparent where successfully removed |
 | Resolution | Original dimensions preserved |
 | Automatic resizing | Disabled |
 | Existing transparency | Preserved in transparency-preservation mode |
 
-Previews may be scaled for browser display, but exported images retain their original pixel dimensions.
+Image previews may be scaled for browser display, but exported files retain their original pixel dimensions.
 
 ## Limitations
 
@@ -100,9 +100,27 @@ Processing large images may require substantial system memory.
 
 ## Contributing
 
-Contributions, suggestions, and bug reports are welcome.
+**Contributions are welcome!**
 
-To contribute, open an [issue](https://github.com/Byadiso/background_remover/issues) or submit a pull request through the GitHub repository.
+Background Remover Studio is an open-source project. Developers are encouraged to improve the application, report issues, suggest features, and contribute code.
+
+To contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes and commit them.
+4. Push your branch to GitHub.
+5. Open a pull request with a description of your changes.
+
+For bugs or feature requests, please [open an issue](https://github.com/Byadiso/background_remover/issues).
+
+## License
+
+This project is licensed under the **MIT License**.
+
+You are free to use, copy, modify, distribute, and contribute to the software, including for commercial purposes, provided the original copyright and license notice are retained.
+
+See the [LICENSE](LICENSE) file for full details.
 
 ## Author
 
@@ -117,4 +135,4 @@ Creator and maintainer of Background Remover Studio.
 
 **Background Remover Studio** — Simple background removal. Real transparency. Original resolution.
 
-Developed and maintained by **Byamungu Desire**.
+Copyright © 2026 Byamungu Desire. Licensed under MIT.
