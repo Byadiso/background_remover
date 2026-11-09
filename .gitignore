@@ -1,0 +1,60 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit and Python caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Uploaded and generated images
+uploads/
+outputs/
+temp/
+tmp/
+*_transparent.png
+
+# AI model files and large binary artifacts
+*.onnx
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+.u2net/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
